@@ -12,6 +12,9 @@
 (trace sum) ;; Adds tracing to the sum function
 ;; (sum 4 4)
 
+;; pattern-matching
+(require racket/match)
+
 (require racket/format) ;; Needed for ~a and str
 
 (require racket/string) ;; Needed for string-join
